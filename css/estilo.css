@@ -55,6 +55,42 @@ nav ul li a{
 	color: #DCDCDC;
 }
 
+/* header */
+
+header{
+	background-image: url('../img/wppe.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #DCDCDC;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+	font-size: 25px;
+
+}
+
+header p{
+	margin-bottom: 2em;
+	font-size: 1.7em;
+
+}
+
+.botao{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #363636;
+	font-size: .7em;
+	border-radius: 7%;
+
+
+}
+
+
+
 @media screen and (min-width: 768px){
 /* Cabeçalho ou barra de Navegação */
 nav{
@@ -67,5 +103,11 @@ nav ul{
 	width: 70%;
 }
 
-
 }
+/* header */
+
+header{
+	height: 570px;
+	justify-content: center;
+
+} 

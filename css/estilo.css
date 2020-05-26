@@ -83,6 +83,12 @@ header p{
 
 }
 
+header h1{
+
+	font-size: 2em;
+	line-height: 1.5;
+}
+
 .botao{
 	color: #DCDCDC;
 	text-decoration: none;
@@ -140,7 +146,6 @@ header p{
 	align-items: center;
 	position: relative;
 	margin: 0 auto;
-
 }
 
 #especialidades div{
@@ -154,9 +159,10 @@ header p{
 
 #especialidades p{
 
-	line-height: 1.5;
+	line-height: 1.3;
 	margin: 2vh;
 	font-size: 1.2em;
+	color: 363636;
 }
 
 #especialidades img{
@@ -167,9 +173,70 @@ header p{
 #especialidades h2{
 
 	font-size: 2em;
+	color: 363636;
 }
 
+/*Competências*/
 
+#competencias{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#competencias h2{
+
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+	color: 363636;
+}
+ 
+#competencias h3{
+
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+
+#competencias p{
+
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+
+#competencias a{
+
+	text-decoration: none;
+}
+
+#competencias img{
+
+	width: 95%;
+	margin-bottom: 0;
+	align-items: center;
+}
+
+#competencias .comp p{
+
+	border-left: 4px groove #363636;
+	border-right: 4px groove #363636;
+	border-bottom: 4px groove #363636;
+	border-radius: 15%;?
+	margin-top: 0;
+	font-family: "Oswald", "Roboto", sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5; 
+}
 
 @media screen and (min-width: 768px) {
 /* Cabeçalho ou barra de Navegação */
@@ -226,12 +293,14 @@ header{
 	align-items: flex-start;
 	max-width: 1000px;
 	margin: 0 auto;
+	color: 363636;
 }
 
 #especialidades h2{
 
 	text-align: center;
 	width: 100%;
+	color: 363636;
 }
 
 #especialidades div{
@@ -239,4 +308,24 @@ header{
 	flex-grow: 1;
 	flex-basis: 150px;
 	padding: 0 10px;
+}
+
+/*Competências*/
+
+#competencias{
+
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#competencias h2, h3{
+
+	width: 100%;
+	text-align: center;
+}
+
+#competencias .comp{
+
+	text-align: center;
+	width: 33.3333333333%
 }

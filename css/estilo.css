@@ -162,7 +162,7 @@ header h1{
 	line-height: 1.3;
 	margin: 2vh;
 	font-size: 1.2em;
-	color: 363636;
+	color: #363636;
 }
 
 #especialidades img{
@@ -173,7 +173,7 @@ header h1{
 #especialidades h2{
 
 	font-size: 2em;
-	color: 363636;
+	color: #363636;
 }
 
 /*Competências*/
@@ -194,7 +194,7 @@ header h1{
 	margin-top: 10px;
 	font-size: 2em;
 	text-align: center;
-	color: 363636;
+	color: #363636;
 }
  
 #competencias h3{
@@ -217,7 +217,6 @@ header h1{
 #competencias a{
 
 	text-decoration: none;
-	color: #363636;
 }
 
 #competencias img{
@@ -238,6 +237,104 @@ header h1{
 	padding-right: 15px;
 	padding-left: 15px;
 	line-height: 1.5; 
+}
+
+.trab img:hover{
+
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.trab img{
+
+	border: 10px groove #363636;
+}
+
+/*Hobby*/
+#hobbies{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 100%;
+}
+
+#hobbies h2{
+
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+	color: #363636;
+}
+
+.hobbies{
+
+	width: 80%;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.hobbies h3{
+
+	font-size: 1.5em;
+	margin-top: 30px;
+	margin-bottom: 14px;
+}
+/*contato*/
+#contato{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #363636;
+	width: 100%;
+}
+
+#contato h2{
+
+	margin-left: 20px;
+	margin-width: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2em;
+	text-align: center;
+	color: #DCDCDC;
+}
+
+#contato > p{
+
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	color: #DCDCDC;
+}
+
+#contato a{
+
+	text-decoration: none;
+	color: #DCDCDC;
+	font-family: Roboto, Oswald, sans-serif;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/*footer*/
+footer{
+
+	text-align: center;
+	width: 100%;
+	background-color: #DCDCDC;
+	color: #363636;
+	padding-top: 20px;
+	padding-bottom: 20px; 
 }
 
 @media screen and (min-width: 768px) {
@@ -330,4 +427,25 @@ header{
 
 	text-align: center;
 	width: 33.3333333333%
+}
+
+/*contato*/
+
+#contato{
+
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 40vh;
+	width: 100%;
+} 
+
+#contato h2,
+#contato p{
+
+	width: 100%;
+	text-align: center;
 }
